@@ -171,7 +171,7 @@ and then look at the specific steps you’ll need to take to change them and con
 - **AndroidManifest.xml** file: Every application must have an `AndroidManifest.xml` file (with precisely that name)
   in its root directory. The manifest file presents essential information about your app to the Android system &ndash;
   information the system must have before it can run any of the app's code.
-  In order to change your application icon file, you must modify the `android:icon` key in the `applcation` tag. <Comment: Please review to enure I did not create a technical error. The original text was sort of hard to understand.>
+  In order to change your application icon file, you must modify the `android:icon` key in the `application` tag. <Comment: Please review to enure I did not create a technical error. The original text was sort of hard to understand.>
   The default app icon set up:
 
   `android:icon="@drawable/icon"`
@@ -565,7 +565,7 @@ List the icons using [`CFBundleIconFiles`](https://developer.apple.com/library/i
 
 For example, listing icons using `CFBundleIconFiles`:
 
-#### Example 1: How to customise Info.plist.\_\_>
+#### Example 1: How to customize Info.plist.\_\_>
 
 ```xml
 <?xml version="1.0" encoding="UTF-8" ?>

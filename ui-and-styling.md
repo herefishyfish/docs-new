@@ -1123,7 +1123,7 @@ If you need to place a custom button on the left side of the `<ActionBar>` (e.g.
 On Android, you can't add text inside the navigation button.
 You can use the icon property to set an image (e.g., `~/images/nav-image.png` or `res:\\ic_nav`).
 You can use `android.systemIcon` to set one of the system icons available in Android.
-In this case, there is no default behaviour for NavigationButton tap event, and we should set the callback function, which will be executed.
+In this case, there is no default behavior for NavigationButton tap event, and we should set the callback function, which will be executed.
 :::
 
 #### Example: Setting an app icon for Android in ActionBar
@@ -2409,7 +2409,7 @@ import { Color } from '@nativescript/core'
 | `lineHeight`     | `number`                                                         | Gets or sets lineHeight style property.                                                                                                     |
 | `text`           | `string`                                                         | Gets or sets the Label text.                                                                                                                |
 | `textAlignment`  | `initial`, `left`, `center`, `right`, `justify`                  | Gets or sets text-alignment style property.                                                                                                 |
-| `textDecoration` | `none`, `underline`, `line-through`, `underline`, `line-through` | Gets or sets text swcoration style property.                                                                                                |
+| `textDecoration` | `none`, `underline`, `line-through`, `underline`, `line-through` | Gets or sets text decoration style property.                                                                                                |
 | `textTransform`  | `initial`, `none`, `capitalize`, `uppercase`, `lowercase`        | Gets or sets text transform style property.                                                                                                 |
 | `textWrap`       | `boolean`                                                        | Gets or sets whether the Label wraps text or not.                                                                                           |
 | `whiteSpace`     | `initial`, `normal`, `nowrap`                                    | Gets or sets the white space style.                                                                                                         |
@@ -2990,7 +2990,7 @@ React NativeScript will automatically detect it using an `child instanceof Page`
 :::tip Note
 You can skip this check by explicitly setting `<actionBar nodeRole="actionBar">`, but it's not a major performance concern.
 :::
-Any non-ActionBar child will be handled as the content view. Page only supports a single child, so if you want to insert multiple children on the Page (which is normally the case!), you should use a LayoutBase such as GridLayout to enscapsulate them.
+Any non-ActionBar child will be handled as the content view. Page only supports a single child, so if you want to insert multiple children on the Page (which is normally the case!), you should use a LayoutBase such as GridLayout to encapsulate them.
 
 :::tip Out of interest
 You'd expect to be able to set ActionBar as the content view by specifying `<actionBar nodeRole="content">`, but it's not supported in NativeScript Core, so React NativeScript doesn't support it either!

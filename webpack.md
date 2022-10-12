@@ -5,7 +5,7 @@ title: Webpack
 ## Webpack
 
 :::warning Note
-This section is only aplicable to `@nativescript/webpack` version `5.0.0` and above.
+This section is only applicable to `@nativescript/webpack` version `5.0.0` and above.
 If you are using an older version, consider upgrading. This is compatible with webpack version 5.x.
 :::
 
